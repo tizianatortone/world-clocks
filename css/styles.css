@@ -1,1 +1,50 @@
+body {
+  background: white;
+}
 
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+}
+select {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding: 7px;
+  border-radius: 6px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+h2 {
+  margin: 0 0 10px;
+}
+
+.date {
+  opacity: 0.5;
+}
+.time {
+  font-size: 28px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+}
