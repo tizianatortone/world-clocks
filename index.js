@@ -30,4 +30,4 @@ function updateTime() {
   )}<small>${londonTime.format("[ ]A")}</small>`;
 }
 updateTime();
-setInterval(updateLosAngeles, 60000);
+setInterval(updateTime, 1000);
