@@ -1,5 +1,5 @@
 body {
-  background: white;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
 }
 
 .container {
@@ -8,9 +8,18 @@ body {
   padding: 30px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #e3e3e3;
+  background: #233142;
 }
 h1 {
   text-align: center;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: #f95959;
 }
 select {
   display: block;
@@ -18,19 +27,23 @@ select {
   width: 80%;
   padding: 7px;
   border-radius: 6px;
+  border-color: #f95959;
+  background: #455d7a;
+  color: #e3e3e3;
 }
 .city {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
   padding: 20px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
 }
 .city:last-child {
   border: none;
 }
 h2 {
   margin: 0 0 10px;
+  font-weight: 400;
 }
 
 .date {
@@ -38,7 +51,8 @@ h2 {
 }
 .time {
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
 }
 .time small {
   font-size: 14px;
@@ -47,4 +61,6 @@ h2 {
 
 footer {
   text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
